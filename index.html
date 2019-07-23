@@ -6,21 +6,44 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
 
-  <body>
+  <body style="text-align: center">
       <h1 id="title">Survey Form</h1>
       <p id="description">microverse trial form</p>
       <form id="survey-form" action="" method="POST">
-        <label for="name" id="name-label",>Name: </label>
+        <label for="name" id="name-label">Name: </label>
         <input type="text" id="name" required placeholder="please enter your name">
-        <label for="email" id="email-label",>Email: </label>
+        <br>
+        <p></p>
+        <label for="email" id="email-label">Email: </label>
         <input type="email" id="email" required placeholder="please enter your email">
-        <label for="number" id="number-label",>Number: </label>
+        <br>
+        <p></p>
+        <label for="number" id="number-label">Number: </label>
         <input type="number" min="2" max="10" id="number" placeholder="please enter a number">
         <select id="dropdown">
           <option value="">option 1</option>
+          <option value="">option 1</option>
         </select>
-        <input type="radio" name="my_radio">
-        <input type="radio" name="my_radio">
+        <br>
+        <p></p>
+        <label for="email" id="my_radio">Yes </label>
+        <input type="radio" name="my_radio" value="0">
+        <label for="email" id="my_radio">No </label>
+        <input type="radio" name="my_radio" value="0">
+        <br>
+        <p></p>
+        <label for="email" id="red">Red </label>
+        <input type="checkbox" name="red" value="0">
+        <label for="email" id="blue">Blue </label>
+        <input type="checkbox" name="blue" value="0">
+        <label for="email" id="yellow">Yellow </label>
+        <input type="checkbox" name="yellow" value="0">
+        <br>
+        <p></p>
+        <textarea></textarea>
+        <br>
+        <p></p>
+        <input type="submit" id="submit">
 
       </form>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
